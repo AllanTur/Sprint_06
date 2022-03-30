@@ -14,9 +14,4 @@
             die(mysqli_error($con));
         }
     }
-
-
-
-
-
 ?>

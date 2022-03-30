@@ -34,7 +34,7 @@
 
                 <?php
 
-                    $sql="Select * from `stock` ORDER BY `stock`.`id` ASC";
+                    $sql="Select * from `stock` ORDER BY `stock`.`id` DESC";
                     $result=mysqli_query($con, $sql);
 
                     if($result){
@@ -68,8 +68,6 @@
 
 
                 ?>
-
-                   
 
             </tbody>
         </table>
