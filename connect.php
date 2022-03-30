@@ -1,7 +1,7 @@
 <?php
 
     //MYSQLI
-    $con = new mysqli(109.234.164.161, $_SERVER['DB_USER'], $_SERVER['DB_PASSWORD'], 'vapfactory');
+    $con = new mysqli("109.234.164.161", $_SERVER['DB_USER'], $_SERVER['DB_PASSWORD'], 'vapfactory');
 
     if (!$con){
         die(mysqli_error($con));
