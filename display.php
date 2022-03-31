@@ -52,8 +52,8 @@
                             echo '<tr>
                             <th scope="row">'.$id.'</th>
                             <td>'.$reference.'</td>
-                            <td>'.substr($nom, 0,40) . "...".'</td>
-                            <td>'.substr($description, 0,40) . "...".'</td>
+                            <td>'.$nom.'</td>
+                            <td>'.$description.'</td>
                             <td>'.$prixachat.'</td>
                             <td>'.$prixvente.'</td>
                             <td>'.$quantite.'</td>
