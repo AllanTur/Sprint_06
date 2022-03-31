@@ -4,7 +4,7 @@
         $reference=$_POST['reference'];
         $name=$_POST['nom'];
         $description=$_POST['description'];
-        $description = $description.replace(/'/g, "\\'");
+        $description = $description.replace(/'/g, "\\');
         $prixachat=$_POST['prixachat'];
         $prixvente=$_POST['prixvente'];
         $quantite=$_POST['quantite'];
