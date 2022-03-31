@@ -52,7 +52,7 @@
 
             <div class="mb-3">
                 <label class="form-label">Description</label>
-                <input type="text" class="form-control" placeholder="Entrer la description de l'article" name="description" autocomplete="off" required>
+                <textarea type="text" class="form-control" placeholder="Entrer la description de l'article" name="description" autocomplete="off"></textarea>
             </div>
 
             <div class="mb-3">
