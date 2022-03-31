@@ -53,7 +53,7 @@
                             <th scope="row">'.$id.'</th>
                             <td>'.$reference.'</td>
                             <td>'.substr($nom, 0,40) . "...".'</td>
-                            <td>'.$description.'</td>
+                            <td>'.substr($description, 0,100) . "...".'</td>
                             <td>'.$prixachat.'</td>
                             <td>'.$prixvente.'</td>
                             <td>'.$quantite.'</td>
