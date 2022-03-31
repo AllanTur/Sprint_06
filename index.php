@@ -9,7 +9,7 @@
         $quantite=$_POST['quantite'];
         $article=$_POST['article'];
 
-        $sql="insert into `stock` (reference,nom,description,prix_achat,prix_vente,quantite,article) values ('$reference','$name','$description','$prixachat','$prixvente','$quantite','$article')";
+        $sql="insert into `stock` (reference,nom,description,prix_achat,prix_vente,quantite,article) values ('$reference','$name',"$description",'$prixachat','$prixvente','$quantite','$article')";
 
         $result=mysqli_query($con,$sql);
 
