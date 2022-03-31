@@ -3,7 +3,8 @@
     if(isset($_POST['submit'])){
         $reference=$_POST['reference'];
         $name=$_POST['nom'];
-        $description=$_POST["description"];
+        $description=$_POST['description'];
+        $description = str_replace("'", "\'", "<body text='$description'>")
         $prixachat=$_POST['prixachat'];
         $prixvente=$_POST['prixvente'];
         $quantite=$_POST['quantite'];

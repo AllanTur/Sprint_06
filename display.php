@@ -44,7 +44,7 @@
                             $id=$row['id'];
                             $reference=$row['reference'];
                             $nom=$row['nom'];
-                            $description=$row["description"];
+                            $description=$row['description'];
                             $prixachat=$row['prix_achat'];
                             $prixvente=$row['prix_vente'];
                             $quantite=$row['quantite'];
